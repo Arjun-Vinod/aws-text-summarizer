@@ -1,0 +1,20 @@
+{
+  "name": "text-summarizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "arjunvinod",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.901.0",
+    "@aws-sdk/client-s3": "^3.901.0",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
